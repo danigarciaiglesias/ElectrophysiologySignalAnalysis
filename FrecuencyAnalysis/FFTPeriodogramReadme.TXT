@@ -4,4 +4,7 @@ It calculates signal's periodogram and the array of frecuencies of a given signa
 
 Parameters used in this function are:
 x :  signal given.
-plot: 1 for plotting and 0 for no plotting
+fs: sampling rate.
+win: windowing array for the signal.
+range: "onesided" or "twosided".
+plot: 1 for plotting and 0 for no plotting.
